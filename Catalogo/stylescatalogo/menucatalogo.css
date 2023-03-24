@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.menu{
+    border-style: solid; 
+    border-color:  rgb(19, 19, 19);
+    margin: 0;
+    padding: 0;
+    height: 91px;
+    display: flex;
+    border-width: 5px; 
+    border-radius: 2px;
+    background: black;
+}
+.menu button{
+    position: relative;
+    right: -90%;
+    top: 20%;
+    padding: 16px;
+   
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 15px;
+    font-size: medium;
+    background: #e6bc53;
+    font-family: 'Merriweather', serif;
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu button:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    
+}

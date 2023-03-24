@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.menu{
+    border-style: solid; 
+    border-color:  rgb(39, 39, 39);
+    margin: 0;
+    padding: 0;
+    height: 95px;
+    display: flex;
+    border-width: 5px; 
+    border-radius: 3px;
+}
+.menu button{
+    position: relative;
+    right: -100%;
+    top: 20%;
+    padding: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 15px;
+    font-size: medium;
+    background: #e6bc53;
+    font-family: 'Merriweather', serif;
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu button:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    
+}
+body{
+    background:black ;
+}
+
+.titulo{
+    text-align: center;
+    color: #e6bc53;
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    vertical-align:top;
+}
+.textoimg img{
+    
+    position: relative;
+    right: -90px;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+   
+
+}
+.textoimg{
+    display: inline-flex;
+}
+.textoimg p{
+    
+    position: relative;
+    right: -250px;
+    top: 200px;
+    text-align: center;
+    color: white;
+    width: 490px;
+   
+    font-size: 30px;
+
+}
+.textoimg2 img{
+    
+    position: relative;
+    right: -700px;
+    top: 340px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+   
+
+}
+.textoimg2{
+    display: inline-flex;
+}
+.textoimg2 p{
+    
+    position: relative;
+    right: 320px;
+    top: 350px;
+    text-align: center;
+    color: white;
+    width: 480px;
+    font-size: 30px;
+
+}

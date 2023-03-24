@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.fundo{
+    background:black ;
+}
+.menu{
+    border-style: solid; 
+    border-color:  rgb(19, 19, 19);
+    margin: 0;
+    padding: 0;
+    height: 91px;
+    display: flex;
+    border-width: 5px; 
+    border-radius: 2px;
+    background: black;
+}
+.menu button{
+    position: relative;
+    right: -100%;
+    top: 20%;
+    padding: 16px;
+   
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 15px;
+    font-size: medium;
+    background: #e6bc53;
+    font-family: 'Merriweather', serif;
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu button:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+text-decoration: none;
+    
+}
+
+.cadastro-cabecalho{
+    font-size:200%;
+    text-align: center;
+}
+.fundo{
+    background: black;
+}
+.formulario form {
+    color: white;
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 370px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid rgb(255, 221, 0);
+    border-radius: 1em;
+    border-radius: 10px;
+}
+.formulario form{
+    padding: 2cm;
+    line-height: 1cm;
+    position: relative;
+    right: 0px;
+    top: 10px;
+}
+
+.titulo{
+    color: gold;
+
+  }
+.btnform{
+    padding: .5rem 2.2rem;
+    text-align: 5px;
+    color: black;
+    background-color: gold; 
+    position: relative;
+    right: -50px;
+    top: 10px;
+    width: 3cm;
+    height: 1.4cm;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+    
+}
+.imagem{
+    position: relative;
+    right: -930px;
+    top: -800px;
+}
+
+.infoartista{
+    position: relative;
+    top: -1550px;
+    right: -70px;
+    height: 406px;
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-color: gold;
+    border-radius: 6px;
+    color: white;
+    
+
+}
+.infoartista img{
+    width: 250px;
+    height: 400px;
+    
+}
+.formulario input{
+    border-radius: 10px;
+    width: 200px;
+}
+.formulario select{
+    border-radius: 6px;
+    width: 140px;
+}
+.formulario textarea{
+    border-radius: 6px;
+    height: 150px;
+    width: 200px;
+}
+
+.infoartista1{
+    position: relative;
+    top: -1955px;
+    right: -900px;
+    height: 406px;
+    width: 300px;
+    border-style: solid;
+    border-color: gold;
+    border-radius: 6px;
+    color: white;
+    
+
+    
+}
+.infoartista1 img{
+    width: 250px;
+    height: 400px;
+    
+}
+

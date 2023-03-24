@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    margin: 0;
+    height: -100px;
+
+    background:rgb(0, 0, 0) ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.menu{
+    border-style: solid; 
+    border-color:  rgb(19, 19, 19);
+    margin: 0;
+    padding: 0;
+    height: 95px;
+    display: flex;
+    border-width: 5px; 
+    border-radius: 2px;
+    background: black;
+}
+.menu button{
+    position: relative;
+    right: -100%;
+    top: 20%;
+    padding: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 15px;
+    font-size: medium;
+    background: #e6bc53;
+    font-family: 'Merriweather', serif;
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu button:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    
+}
+.cartao {
+
+    color: white; 
+    margin: 5% 0% 5% 30%;     
+    
+}
+
+.searchfundo{
+    color: rgb(255, 254, 253);
+    font-size: 10px;
+    margin: 5% 0% 5% 30%;
+    
+   
+}
+.cartao fieldset{
+    border: none;
+    
+}
+
+.botao{
+    margin-left: 25%;
+}
+
+.formulario{
+    color: white;
+    font-size: 25px;
+
+}
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 100px;
+    
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;
+    	
+}
+
+form input {
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+#area label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+    display: flex;
+}
+form {
+    width: 45%;
+    height: -20px;
+    margin: 40px ;
+    padding: 100px;
+    background-color: #0e0d0d;
+    border-style: solid;
+    border-radius: 12px;
+    align-items: center;
+    border-color: #e6bc53;
+}
+
+
+.btn_submit{
+    position: relative;
+    left: 20px;
+    width: 170px;
+    height: 45px;
+    background-color: #e6bc53;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: medium;
+    
+}
+.btn_submit:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+.campo_nome{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.campo_email{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.msg{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 200px;
+    height: 130px;
+}

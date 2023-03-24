@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    background:rgb(0, 0, 0) ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.menu{
+    border-style: solid; 
+    border-color:  rgb(19, 19, 19);
+    margin: 0%;
+    padding: 0;
+    height: 95px;
+    display: flex;
+    border-width: 5px; 
+    border-radius: 2px;
+    background: black;
+    
+}
+.menu button{
+    position: relative;
+    right: -100%;
+    top: 20%;
+    padding: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 15px;
+    font-size: medium;
+    background: #e6bc53;
+    font-family: 'Merriweather', serif;
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu button:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    
+}
+.cartao {
+
+    color: white; 
+    margin: 5% 0% 5% 30%;     
+    
+}
+
+.searchfundo{
+    color: rgb(255, 254, 253);
+    font-size: 10px;
+    margin: 0 -8%;
+    
+   
+}
+
+
+.cartao fieldset{
+    border: none;
+    
+}
+
+.botao{
+    margin-left: 25%;
+
+}
+
+.formulario{
+    color: white;
+}
+.login form {
+	width: 320px;
+	padding: 30px;
+	padding-top: 40px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+    
+}
+
+form input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.formulario__legenda{
+    color: white;
+}
+
+
+form {
+    width: 40%;
+    margin: 40px 0;
+    border: 4px solid rgb(255, 253, 253);
+    padding: 20px;
+    border-radius: 12px;
+    border-color: black;
+    position: absolute;
+    left: 490px;
+    top: 126px;
+
+}
+
+.button__text{
+    width: 50px;
+    height: 30px;
+    padding: 8px;
+}
+
+
+.login h1{
+    font-size: 25px;
+}
+
+.imagem-fundo{
+    margin: 0%;
+    width: 1263px ;
+    height: 850px  ;
+}
+.botao_enviar{
+    width: 120px;
+    height: 45px;
+    background: #e6bc53;
+    font-family: 'Merriweather', serif;
+    font-size: medium;
+    border-radius: 10px;
+}
+.botao_enviar:hover{
+    background: white;
+    transition: all 0.5s ease-in;
+}

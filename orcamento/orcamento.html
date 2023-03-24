@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCC | Orcamento</title>
+    <link rel="stylesheet" href="/orcamento/styles/orcamentoartista.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="fundo">
+    <header class="container-logo">
+    <div class="teste"></div>
+    
+    </div>
+
+    <div class="menu">
+        <img src="/Catalogo/imgcatalogo/LOGO/logo1-removebg-preview.png" alt="logo">
+        <ul> 
+         <button class="button"><li><a href="/quemsomos/quemsomos.html" > Quem somos </a></li></button>
+         <button><li><a href="/contato/contato.html" > Contato </a></li></button>
+         <button><li><a href="/Catalogo/htmlcatalogo/catalogo.html" > Artistas </a></li></button>
+         <button><li><a href="/vcmusico/vocemusico.html" > Você Músico  </a></li></button>
+        </ul>
+        </div>
+</header>
+<section class="formulario">
+<form  action="https://api.staticforms.xyz/submit" method="post" >
+    <h1 class="titulo">CONTRATE A ATRAÇÃO IDEAL</h1>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu Nome*">
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Digite Seu E-mail*" />
+    </div>
+    <div>
+        <label for="Telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone*" />
+    </div>
+    <div>
+        <label for="voce">O que Você é:</label>
+        <select name="voce" id="voce" type="text">
+            <option value="artista">selecione</option>
+            <option value="acessoria">Acessoria de Impresa</option>
+            <option value="empresa">Empresa</option>
+            <option value="produtor">Produtor de eventos</option>
+            <option value="patente">Parente ou Familiar</option>
+            <option value="cerimonialista">Cerimonialista</option>
+            <option value="fa">Fã</option>
+            <option value="outro">Outro</option>
+        </select>
+    </div>
+    <div>
+        <label for="escolha">Escolha seu artista:</label>
+        <select name="escolha" id="escolha">
+            <option value="artista">selecione</option>
+            <option value="artista">Akatu</option>
+            <option value="artista">Ana Castela</option>
+            <option value="artista">Barões Da Pisadinhas</option>
+            <option value="artista">Claudia Leitte</option>
+            <option value="artista">Daniel</option>
+            <option value="artista">Dilsinho</option>
+            <option value="artista">Entre Elas</option>
+            <option value="artista">Envolvencia</option>
+            <option value="artista">Iza</option>
+            <option value="artista">João Gomes</option>
+            <option value="artista">Leo Chaves</option>
+            <option value="artista">Luan Pereira</option>
+            <option value="artista">Molejo</option>
+            <option value="artista">Naldo</option>
+            <option value="artista">Numa Boa</option>
+            <option value="artista">Paula Fernandes</option>
+            <option value="artista">Pura Resenha</option>
+            <option value="artista">Mc Rogerinho</option>
+            <option value="artista">Sergio Reis</option>
+            <option value="artista">Zé Felipe</option>
+        </select>
+    </div>
+    <div>
+        <label for="tipoevento">Escolha o tipo de evento</label>:</label>
+        <select name="tipoevento" id="tipoevento">
+            <option value="selecionar">selecione</option>
+            <option value="tipoevento">Particular</option>
+            <option value="tipoevento">Corporativo</option>
+            <option value="tipoevento">Bilheteria</option>
+            <option value="tipoevento">Prefeitura</option>
+            <option value="tipoevento">Não a evento(Sou Fã)</option>
+            <option value="tipoevento">Não há evento(Sou acessoria de imprensa)</option>
+        </select>
+    </div>
+    <div>
+        <label for="data">Escolha a data de evento:</label>
+        <input type="date" name="data"  id="data" />
+    </div>
+    <div>
+        <label for="inicio">horario de inicio:</label>
+        <input type="time" name="horarioI" id="horarioI" />
+    </div>
+    <div>
+        <label for="termino">horario de termino:</label>
+        <input type="time" name="horarioT" id="horarioT" />
+    </div>
+    <div>
+        <label for="palco">horario de entada no palco:</label>
+        <input type="time" name="hora" id="hora" />
+    </div>
+    <div>
+        <label for="local">Local:</label>
+        <input type="text" id="local" name="local" placeholder="Digite o local*" />
+    </div>
+    <div>
+        <label for="qntdpessoas">Quantidade de pessoas:</label>
+        <select name="qntdpessoas" id="qntdpessoas">
+            <option value="selecionar">selecione</option>
+            <option value="pessoas">até 50 pessoas</option>
+            <option value="pessoas">até 100 pessoas</option>
+            <option value="pessoas">até 200 pessoas</option>
+            <option value="pessoas">Entre 300 e 500 pessoas</option>
+            <option value="pessoas">Entre 500 e 700 pessoas</option>
+            <option value="pessoas">Acima de 1000 pessoas</option>
+            <option value="pessoas">Acima de 5000 pessoas</option>
+        </select>
+    </div>
+    <div>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" placeholder="Digite o Bairro*" />
+    </div>
+    <div>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade*" />
+    </div>
+    <div>
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" placeholder="Digite o estado*"/>
+    </div>
+    <div class="field">
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+    </div>
+    <div>
+        
+        <button class="btnform"  type="submit" name="submit" value="submit"> Enviar</button>
+    </div>
+    <input type="hidden" name="accessKey" value="40ebe57b-1d9a-4556-b2e6-3a3c0f7db026">
+    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/contato/obrigado.html">
+</form>
+</section>
+<form class="infoartista">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/orcamento/ARTISTAS/Grupo_Entre_Elas.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/iza.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/joaogomes.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/leochaves.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/luanpereira.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/mcrogerinho.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/molejo.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/naldo.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+</form>
+<form class="infoartista1">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/orcamento/ARTISTAS/Akatu.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/anacastala.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/baroesdapisadinha.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/claudialeite.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/daniel.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/dilsinho.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/orcamento/ARTISTAS/envolvencia.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+</form>
+
+</body>
+</html>

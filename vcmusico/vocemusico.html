@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/vcmusico/stylevcmusico.css">
+    <title>Cadastro</title>
+</head>
+<body class="fundo">
+    <div class="menu" >
+        <img src="/Catalogo/imgcatalogo/LOGO/logo1-removebg-preview.png" alt="logo">
+        <ul> 
+         <button class="button"><li><a href="/quemsomos/quemsomos.html" > Quem somos </a></li></button>
+         <button><li><a href="/contato/contato.html" > Contato </a></li></button>
+         <button><li><a href="/Catalogo/htmlcatalogo/catalogo.html" > Artistas </a></li></button>
+         <button><li><a href="/vcmusico/vocemusico.html" > Você Músico  </a></li></button>
+        </ul>
+        </div>
+    
+    
+       <main class="container flex flex--coluna flex--centro">
+        <div class="cadastro-cabecalho">
+            <img class="imagem-fundo" src="/vcmusico/imagens/fundo2.jpg" alt="Imagem-Ilustrativa-de-Fundo">   
+          
+        </div>
+        
+      <section class="login">
+        <form  action="https://api.staticforms.xyz/submit" method="post">
+            <div class="searchfundo">
+
+                <h1> Procurando uma Oportunidade pra engrenar na sua carreira ?</h1>
+                <h2> Insira sua informaçoes aqui e entraremos em contato.</h2>
+            </div>
+            
+            <div class="login__field">
+                <i class="login__icon fas fa-user"></i>
+                <legend class="formulario__legenda">Nome completo</legend>
+                <input type="text" name="name" class="login-input" placeholder="Nome Completo">
+            </div>
+            <div class="login__field">
+                <legend class="formulario__legenda">Nome Artístico</legend>
+                <input type="text" name="name" class="login-input" placeholder="Nome Artístico">
+            </div>
+            <div class="login__field">
+                <legend class="formulario__legenda">Email</legend>
+                <input type="email" name="email" class="login-input" placeholder="Email">
+            </div>
+            <div class="login__field">
+                <legend class="formulario__legenda">Telefone</legend>
+                <input type="text" name="phone" class="login-input" placeholder="Telefone">
+            </div>
+            <div class="botao"> 
+            <button class="botao_enviar">
+                <span class="button__text">Enviar</span>
+            </button>	
+            <input type="hidden" name="accessKey" value="40ebe57b-1d9a-4556-b2e6-3a3c0f7db026">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/vcmusico/obrigado.html">	
+        </div>		
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
